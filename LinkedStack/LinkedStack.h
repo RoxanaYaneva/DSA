@@ -4,15 +4,13 @@
 #define LINKED_STACK_H
 
 template<typename T>
-struct Node
-{
+struct Node {
 	T data;
 	Node* next;
 };
 
 template<typename T>
-class LinkedStack
-{
+class LinkedStack {
 public:
 	LinkedStack();
 	LinkedStack(const LinkedStack&);

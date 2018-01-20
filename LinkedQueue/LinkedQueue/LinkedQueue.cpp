@@ -16,7 +16,7 @@ int main() {
 	result.print();
 
 	system("pause");
-    return 0;
+    	return 0;
 }
 
 /* 

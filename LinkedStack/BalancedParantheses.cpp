@@ -6,8 +6,8 @@
 bool checkBalancedParantheses(const char* expr) {
 	LinkedStack<char> stack;
 	bool result = true;
-	size_t length = strlen(expr);
-	for (size_t i = 0; i < length; ++i) {
+	int i = 0;
+	while(expr[i] && result) {
 		char c = expr[i];
 		switch (c) {
 		case '(':
@@ -27,6 +27,7 @@ bool checkBalancedParantheses(const char* expr) {
 		default:
 			break;
 		}
+		++i;
 	}
 	if (result && stack.isEmpty()) return true;
 }

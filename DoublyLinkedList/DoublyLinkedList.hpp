@@ -50,8 +50,7 @@ inline Node<T>* DoublyLinkedList<T>::iterNext() {
 }
 
 template<typename T>
-inline Node<T>* DoublyLinkedList<T>::iterPrev()
-{
+inline Node<T>* DoublyLinkedList<T>::iterPrev() {
 	Node<T>* temp = currentE;
 	if (currentE) {
 		currentE = currentE->prev;

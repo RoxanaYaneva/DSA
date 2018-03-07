@@ -3,7 +3,7 @@
 #ifndef GRAPH_H
 #define GRAPH_H
 
-#include "C:\Users\roxy1\source\repos\LinkedList\LinkedList\LinkedList.h"
+#include "..\LinkedList\LinkedList.h"
 
 template<typename T>
 class Graph {
